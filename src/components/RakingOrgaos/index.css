@@ -1,0 +1,36 @@
+/* body {
+    font-family: Roboto, sans-serif;
+  }
+   */
+* {
+  /* border: 1px solid rgb(247, 73, 73); */
+}
+#container-raking{
+    /* border: 1px solid rgb(247, 73, 73); */
+    /* height: 100vh; */
+    display: flex;
+    /* direction: row; */
+    align-items: center;
+    padding: .1rem 1.2rem 1.2rem 2.5rem;
+    background-color: rgb(245, 245, 245);
+}
+#row-base-raking {
+  /* padding: 2.5rem; */
+  width: 100%;
+  /* height: auto; */
+  font-family: Roboto, sans-serif;
+  display: flex;
+  background-color: white;
+  /* border: 1px solid rgb(247, 73, 73); */
+  border-radius: 8px;
+}
+#col-table {
+  padding: 1.5rem;
+  
+
+}
+
+#col-table-omissao {
+  padding: 1.5rem;
+
+}
