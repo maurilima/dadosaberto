@@ -35,7 +35,7 @@ function Home() {
                 </Col>
                 <Col id='col-card' xs={12} sm={5} md={5} lg={5} xxl={6} >
                   <CardVisao
-                    subtitle='15,16 dias' texto='Tempo médio de resposta que o Orgãp leva pra respoder ' >TEMPO MÉDIO DE RESPOSTA</CardVisao>
+                    subtitle='15,16 dias' texto='Tempo médio de resposta que o Orgão leva pra responder ' >TEMPO MÉDIO DE RESPOSTA</CardVisao>
                 </Col>
               </Row>
             </Col>
