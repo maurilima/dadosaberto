@@ -28,11 +28,11 @@
 }
 #col-titulo {
     display: flex;
+    /* padding-left: 1.5rem; */
     color: #2BD925;
     font-size: 2.1rem;
     font-weight: bold;
-    align-content: center;
-    justify-items: center;
+    justify-content: center;
 
 }
 #col-pedido{
@@ -40,5 +40,14 @@
     font-size: 1.2rem;
     justify-content: center;
     font-weight: bold;
+}
+
+#row-gauge{
+    display: flex;;
+    padding-top: 1rem;
+    align-content: center;
+    justify-content: center;
+
+
 }
 
