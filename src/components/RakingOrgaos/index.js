@@ -8,7 +8,7 @@ import TableRaking from "./TableRaking";
 function RakingOrgaos() {
 
     return (
-        <>
+        <React.Fragment>
             <Container id='container-raking'>
                 <Row xs={12} xl={6} xxl={6} id='row-base-raking'>
                     <Col id='col-table' xs={12} xxl={6}>
@@ -19,7 +19,7 @@ function RakingOrgaos() {
                     </Col>
                 </Row>
             </Container>
-        </>
+        </React.Fragment>
 
     )
 

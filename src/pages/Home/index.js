@@ -12,7 +12,7 @@ import './index.css'
 function Home() {
 
   return (
-    <>
+    <React.Fragment>
 
       <Container id='container'>
         <Row id='row-base' >
@@ -51,7 +51,7 @@ function Home() {
 
       </div>
 
-    </>
+    </React.Fragment>
 
 
   )
