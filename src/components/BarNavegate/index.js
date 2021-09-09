@@ -3,7 +3,7 @@ import { Container, Nav, Navbar } from 'react-bootstrap';
 
 // import { Container } from './styles';
 
-function BarNavegacao() {
+function BarNavegate() {
     return (
         <>
             <Navbar fixed="top" bg="primary" variant="dark">
@@ -24,6 +24,6 @@ function BarNavegacao() {
     )
 }
 
-export default BarNavegacao;
+export default BarNavegate;
 
 
