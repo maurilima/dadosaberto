@@ -20,7 +20,7 @@ class StatusPedido extends Component {
       },
       series: [
         {
-          name: "series-1",
+          name: "Pedidos",
           data: [1005, 65, 155]
         }
       ]
@@ -28,7 +28,7 @@ class StatusPedido extends Component {
   }
   render() {
     return (
-        <div className="row-chart">
+        <div className="row-chart-pedido">
           <div className="bar">
             <Chart
               options={this.state.options}

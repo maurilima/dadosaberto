@@ -6,7 +6,7 @@ body {
   font-family: Roboto, sans-serif;
 }
 
-.row-chart {
+.row-chart-pedido {
     max-width: 750px;
     margin: 0 auto;
     display: flex;

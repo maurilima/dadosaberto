@@ -4,6 +4,7 @@ import CardVisao from "../../components/CardVisao";
 import Gauge from "../../components/Gauge";
 import RakingOrgaos from "../../components/RakingOrgaos";
 import StatusPedido from "../../components/StatusPedido";
+import OrderEvolution from "../../components/OrderEvolution/index";
 import './index.css'
 
 
@@ -27,9 +28,7 @@ function Home() {
 
           </Row>
           <Row  >
-
             <Col xs={12} xl={6} xxl={6}>
-
               <Row id='row-cards'>
                 <Col id='col-card' xs={12} sm={6} md={6} lg={6} xxl={6} >
                   <CardVisao subtitle='1.000.325'>PEDIDOS RECEBIDOS</CardVisao>
@@ -41,10 +40,20 @@ function Home() {
               </Row>
               <Row id='row-gauge'>
                 <Col xs={12} sm={6} md={6} lg={6} xxl={6} >
-                <Gauge value={.70} ></Gauge> 
+                  <Gauge value={.70} ></Gauge>
                 </Col>
                 <Col xs={12} sm={6} md={6} lg={6} xxl={6}>
-                <Gauge value={.85}/>
+                  <Gauge value={.85} />
+                </Col>
+              </Row>
+              <Row >
+                <Col id='col-legenda-gauge' xs={12} sm={6} md={6} lg={6} xxl={6} >
+                  <p>Não Atendeu</p>
+                  <p>Atendeu Plenamente</p>
+                </Col>
+                <Col id='col-legenda-gauge-2' xs={12} sm={6} md={6} lg={6} xxl={6}>
+                  <p>Dificil Compreensão</p>
+                  <p>Fácil Compreensão</p>
                 </Col>
               </Row>
             </Col>
@@ -55,13 +64,17 @@ function Home() {
         </Row>
       </Container >
       <RakingOrgaos />
-      <div className="demo">
-        <renderProgress />
+      <Container id='container-orderevolution' >
+        <Row id='row-orderevolution' >
+          <Col id='col-orderevolution' xs={12} xl={6} xxl={6}>
+            <OrderEvolution />
+          </Col>
+          <Col xs={12} xl={6} xxl={6}>
+            Mova Linha
+          </Col>
 
-      </div>
-      <Row>
-       
-      </Row>
+        </Row>
+      </Container>
 
     </React.Fragment>
 
