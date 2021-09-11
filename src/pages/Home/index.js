@@ -6,6 +6,7 @@ import RakingOrgaos from "../../components/RakingOrgaos";
 import StatusPedido from "../../components/StatusPedido";
 import OrderEvolution from "../../components/OrderEvolution/index";
 import './index.css'
+import BoxShadow from "../../components/BoxShadow";
 
 
 
@@ -69,12 +70,21 @@ function Home() {
           <Col id='col-orderevolution' xs={12} xl={6} xxl={6}>
             <OrderEvolution />
           </Col>
-          <Col xs={12} xl={6} xxl={6}>
-            Mova Linha
-          </Col>
 
+          
+          <Col id='col-boxes'>
+            <Row id='row-boxes'>
+              <Col id='col-boxes-1' sm={6} md={6} lg={6} xxl={6}  >
+               <BoxShadow />
+              </Col> 
+              <Col id='col-boxes-2' sm={6} md={6} lg={6} xxl={6}  >
+              <BoxShadow />
+              </Col>
+             </Row>
+          </Col>
         </Row>
       </Container>
+
 
     </React.Fragment>
 
