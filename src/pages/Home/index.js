@@ -17,7 +17,7 @@ function Home() {
   return (
     <React.Fragment>
 
-      <Container id='container'>
+      <Container fluid id='container'>
         <Row id='row-base' >
           <Row id='row-visao' >
             <Col id='col-titulo' xs={12} sm={6} md={6} lg={6} xxl={6}>
@@ -65,22 +65,24 @@ function Home() {
         </Row>
       </Container >
       <RakingOrgaos />
-      <Container id='container-orderevolution' >
+      <Container fluid id='container-orderevolution' >
         <Row id='row-orderevolution' >
           <Col id='col-orderevolution' xs={12} xl={6} xxl={6}>
             <OrderEvolution />
           </Col>
 
-          
           <Col id='col-boxes'>
+            <Row sm={12} id='row-instancia'>
+              Recurso por Instancia
+            </Row>
             <Row id='row-boxes'>
               <Col id='col-boxes-1' sm={6} md={6} lg={6} xxl={6}  >
-               <BoxShadow />
-              </Col> 
-              <Col id='col-boxes-2' sm={6} md={6} lg={6} xxl={6}  >
-              <BoxShadow />
+                <BoxShadow title='1ª INSTÂNCIA' texto='20.000' />
               </Col>
-             </Row>
+              <Col id='col-boxes-2' sm={6} md={6} lg={6} xxl={6}  >
+                <BoxShadow title='2ª INSTÂNCIA' texto='1.997' />
+              </Col>
+            </Row>
           </Col>
         </Row>
       </Container>

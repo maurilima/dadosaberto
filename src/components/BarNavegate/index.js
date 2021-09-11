@@ -1,15 +1,15 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 
-// import { Container } from './styles';
+import './index.css';
 
 function BarNavegate() {
     return (
         <>
             <Navbar fixed="top" bg="primary" variant="dark">
-                <Container>
+                <Container fluid>
                     <Navbar.Brand href="#home">COGER</Navbar.Brand>
-                    <Nav className="me-auto">
+                    <Nav className="justify-content-end">
                         <Nav.Link href="#home">VISÃO GERAL</Nav.Link>
                         <Nav.Link href="#features">PEDIDOS</Nav.Link>
                         <Nav.Link href="#pricing">SOLICITANTES</Nav.Link>

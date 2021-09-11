@@ -2,20 +2,22 @@ import React from 'react';
 
 import './index.css'
 
-function BoxShadow({texto}) {
-  return (
-      <>
-        <div className="box-message">
+function BoxShadow({ title, texto }) {
+    return (
+        <>
+            <div className="box-message">
+                <div className="title">
+                    {title}
+                </div>
+                <div className="texto">
+                    {texto}
+                </div>
+            </div>
 
-            {texto}
 
+        </>
 
-        </div>
-   
-
-      </>
-
-  );
+    );
 }
 
 export default BoxShadow;

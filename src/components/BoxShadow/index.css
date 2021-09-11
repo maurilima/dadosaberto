@@ -1,11 +1,30 @@
+
 .box-message {
-    width: 15rem;
-    height: 5rem;
-    background-color: rgb(7, 112, 112);
+  border-radius: 8px;
+  width: 15rem;
+  height: 5.5rem;
+  color: rgb(255, 254, 254);
+  background-color: rgb(250, 250, 250);
 
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 7px 10px 32px 4px rgba(0,0,0,0.78);
+  -webkit-box-shadow: 7px 10px 32px 4px rgba(0,0,0,0.78);
+  -moz-box-shadow: 7px 10px 32px 4px rgba(0,0,0,0.78);
+}
+  
 
+.title{
+    /* display: flex; */
+    font-family: Roboto, sans-serif;
+    padding: .2rem;
+    color: #0ea853;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+.texto{
+    color: rgb(80, 80, 80);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
 
 }

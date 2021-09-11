@@ -3,12 +3,15 @@
     /* border: 1px solid rgb(247, 73, 73); */
     
 }
+
+/* Cor zinz ma refinado para background #d4ffe1 */
 #container {
     margin-top: 3.5rem;
     display: flex;
     align-items: center;
     padding: 2.5rem;
-    background-color: rgb(245, 245, 245);
+    background-color: #fafafa ;
+    /* background-color: rgb(245, 245, 245); */
 
 }
 #row-base{
@@ -97,30 +100,43 @@
 
 }
 
-#row-boxes{
-    max-width: 550px;
+#row-instancia{
     display: flex;
-    margin-top: 1rem;
-    align-content: space-between;
+    justify-content: center;
+    border: 1px solid rgb(247, 73, 73);
     
-    
-    /* margin-top: 1.rem; */
-    display: flex;
-    /* align-content: center; */
-    /* justify-content: space-between; */
 }
+/* #col-instancia{ */
+    /* border: 1px solid rgb(247, 73, 73); */
+    /* display: flex; */
+    /* padding: auto;  */
+    /* max-width: 100%; */
+    /* flex-direction: row; */
+    /* justify-content: center; */
+/* } */
 
+#row-boxes{
+    /* max-width: 550px; */
+    width: 100%;
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    justify-content:space-evenly ;
+}
 
 #col-boxes {
     display: block;
-    padding-left: 2rem;
-    /* justify-items:space-between ; */
-    /* align-content:space-between; */
     background-color: white;
-    border-radius: 8px;
+    border-radius: 0 8px 8px 0;
     /* border: 1px solid rgb(247, 73, 73); */
 
 }
+
+
+
+
+
+
  
 #col-boxes-2 {
     background-color: white;
@@ -129,4 +145,5 @@
 
 
 }
+
  
