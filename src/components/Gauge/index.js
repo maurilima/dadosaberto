@@ -12,7 +12,7 @@ function Gauge(props) {
   colors={[ "#00FF80","#00361B","#00361B"]} 
   arcWidth={0.3} 
   percent={props.value}
-  arcPadding={0.01}
+  arcPadding={0.03}
 
   textColor={'#00361BE'}  />;
 }
