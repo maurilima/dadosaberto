@@ -3,6 +3,7 @@ import React from "react";
 import './assets/styles/style.css'
 import BarNavegate from "./components/BarNavegate";
 import Main from "./pages/Main";
+import  './app.css'
 // import Home from "./pages/Home";
 
 function App() {

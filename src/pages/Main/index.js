@@ -1,5 +1,6 @@
 import React from 'react';
 import RakingOrgaos from '../../components/RakingOrgaos';
+import ViewOrderEvolution from '../../components/ViewOrderEvolution';
 import VisaoGeral from '../VisaoGeral';
 
 import './index.css'
@@ -21,6 +22,7 @@ function Main() {
                 <div id="main">
                   <VisaoGeral />
                   <RakingOrgaos />
+                  <ViewOrderEvolution/>
             </div>
          </div>
    

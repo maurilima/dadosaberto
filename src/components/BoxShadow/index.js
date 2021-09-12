@@ -1,8 +1,10 @@
 import React from 'react';
+import { FaUserFriends } from 'react-icons/fa';
+
 
 import './index.css'
 
-function BoxShadow({ title, texto }) {
+function BoxShadow({ titleexterno, title, texto }) {
     return (
         <>
             <div className="box-message">
@@ -10,9 +12,10 @@ function BoxShadow({ title, texto }) {
                     {title}
                 </div>
                 <div className="texto">
-                    {texto}
+                   <FaUserFriends/>{texto}
                 </div>
             </div>
+            <div className="title-externo">{titleexterno}</div>
 
 
         </>

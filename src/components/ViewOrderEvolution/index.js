@@ -1,9 +1,9 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import BoxShadow from '../BoxShadow';
+import BoxShadow from '../BoxShadow/index';
 import OrderEvolution from '../OrderEvolution';
 
-// import { Container } from './styles';
+import './index.css';
 
 function ViewOrderEvolution() {
     return (
@@ -14,15 +14,15 @@ function ViewOrderEvolution() {
                 </Col>
 
                 <Col id='col-boxes'>
-                    <Row sm={12} id='row-instancia'>
+                    <Row  id='row-instancia'>
                         Recurso por Instancia
                     </Row>
                     <Row id='row-boxes'>
                         <Col id='col-boxes-1' sm={6} md={6} lg={6} xxl={6}  >
-                            <BoxShadow title='1ª INSTÂNCIA' texto='20.000' />
+                            <BoxShadow  titleexterno='56%' title='1ª INSTÂNCIA' texto='20.000' />
                         </Col>
                         <Col id='col-boxes-2' sm={6} md={6} lg={6} xxl={6}  >
-                            <BoxShadow title='2ª INSTÂNCIA' texto='1.997' />
+                            <BoxShadow titleexterno='5,536%' title='2ª INSTÂNCIA' texto='1.997' />
                         </Col>
                     </Row>
                 </Col>
