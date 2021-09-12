@@ -12,7 +12,7 @@ function BoxShadow({ titleexterno, title, texto }) {
                     {title}
                 </div>
                 <div className="texto">
-                   <FaUserFriends/>{texto}
+                   <FaUserFriends color='#139DF2'/>{texto}
                 </div>
             </div>
             <div className="title-externo">{titleexterno}</div>

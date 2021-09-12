@@ -14,7 +14,14 @@ class StatusPedido extends Component {
         chart: {
           id: "basic-bar"
         },
-        xaxis: {
+        title:{
+          text:'Pedidos'
+      },
+      zoom: {
+        type: "x",
+        enabled: true
+      },
+      xaxis: {
           categories: ['Respondido', 'Em Tramitação','Omissões']
         }
       },
